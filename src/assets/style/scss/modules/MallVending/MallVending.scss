@@ -1,0 +1,22 @@
+@import "@/assets/style/scss/common.scss";
+
+.AdminContent{
+    background: #fff
+}
+.AdminBreadcrumb{
+    padding: 10px;
+    background: #ddf1f7;
+}
+.ant-breadcrumb-link:hover{
+    color: #ddf1f7;
+    cursor: pointer
+}
+.VendingMachineFormWrap{
+    display: flex;
+    .VendingMachineFormLeft{
+        flex: 0.2
+    }
+    .VendingMachineFormRight{
+        flex: 0.8
+    }
+}

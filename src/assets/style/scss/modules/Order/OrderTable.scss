@@ -1,0 +1,147 @@
+@import "@/assets/style/scss/common.scss";
+
+.orderContent{
+    display: flex;
+    flex-direction:column;
+    background-color: #ffffff;
+    height: 100%;
+    .orderTable{
+      height:100%;
+      .ant-table.ant-table-bordered .ant-table-title {
+        border: none;
+    }
+      .ant-table-thead{
+        th{
+          padding: pxTorem(10px) pxTorem(10px) !important;
+          background: #ffffff;
+          //width: pxTorem(160px);
+        } 
+      }
+      .ant-table-tbody{
+            td{
+              padding: pxTorem(10px) pxTorem(10px) !important;
+              //width: pxTorem(160px);
+
+          }      
+      }
+    }
+}
+
+//表单样式
+.AdminContent{
+  background-color: #ffffff;
+  .ToBeConfirmedForms{
+    padding: pxTorem(18px);
+  }
+  .ToBeConfirmedForm{
+    // box-shadow: 3px 3px 4px #e2e2e2;
+    // margin-top:pxTorem(20px);
+    // padding-bottom:pxTorem(20px);
+
+    .table-operations{
+      button{
+        margin:0 pxTorem(4px);
+      }
+    }
+
+    .ToBeConfirmedInfo{
+      display: -webkit-flex; /* Safari */
+      display: flex;
+      flex-wrap: wrap;
+      .ant-form-item {
+        margin-bottom: pxTorem(4px);
+    }
+      .ant-row{
+        display: flex;
+        justify-content: flex-end;
+        width: pxTorem(380px);
+        input:not([type=range]), label, select, summary, textarea {
+          height: pxTorem(32px);
+          width: pxTorem(260px);
+      }
+      }
+    }
+
+    .porderTable{
+      height:100%;
+      .ant-table-thead{
+        th{
+          background: #ffffff;
+          padding: pxTorem(10px) pxTorem(10px) !important;
+          //width: pxTorem(160px);
+        } 
+      }
+      .ant-table-tbody{
+            td{
+              padding: pxTorem(10px) pxTorem(10px) !important;
+              //width: pxTorem(160px);
+
+          }      
+      }
+    }
+  }
+}
+
+//修改框样式
+.searchList{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  .ant-input{
+    width: pxTorem(400px) !important;
+    margin-bottom: pxTorem(10px)
+  }
+  .ant-select{
+    width: pxTorem(400px) !important;
+    margin-bottom: pxTorem(10px)
+  }
+}
+
+
+//搜索框样式
+.ToBeConfirmedSearchModal{
+  .ant-modal-footer{
+    display:none;
+  }
+}
+
+//卡片
+.ant-card-type-inner .ant-card-body {
+   padding:pxTorem(18px) pxTorem(20px);
+}
+
+//地址输入框
+.addressInput{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 pxTorem(40px);
+  .ant-row{
+      width: auto !important;
+    input:not([type=range]), select, summary, textarea {
+      width: pxTorem(196px) !important;
+      margin-right: pxTorem(8px)
+  }
+  }
+
+}
+//备注输入框
+.remarksInput{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 pxTorem(68px);
+  .ant-row{
+      width: auto !important;
+    input:not([type=range]), select, summary, textarea {
+      width: pxTorem(600px) !important;
+  }
+}
+// .ant-row .ant-form-item{
+//   width: 810px!important;
+// }
+}

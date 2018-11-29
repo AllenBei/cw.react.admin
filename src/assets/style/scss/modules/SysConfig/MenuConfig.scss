@@ -1,0 +1,28 @@
+@import "@/assets/style/scss/common.scss";
+.MenuConfig {
+    .mainContent {
+        display: flex;
+    }
+    .MenuTable {
+        flex: 0.5;
+    }
+    .MenuItemTable {
+        flex: 0.5;
+    }
+}
+
+.MenuModal,.MenuItemModal {
+    .ant-modal-body{
+        .MenuFrom,.MenuItemFrom{
+            .btns{
+                margin-bottom: 0;
+                .ant-btn{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .ant-modal-footer {
+        display: none;
+    }
+}

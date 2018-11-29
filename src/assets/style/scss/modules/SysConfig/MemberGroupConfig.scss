@@ -1,0 +1,41 @@
+@import "@/assets/style/scss/common.scss";
+.MemberGroupConfig {}
+
+.MemberGroupModal {
+    .ant-modal-content {
+        height:100%;
+        .ant-modal-body {
+            padding: 0;
+        }
+        .ant-modal-footer {
+            display: none;
+        }
+    }
+    .ant-tabs {
+        .ant-tabs-content {
+            padding: pxTorem(10px);
+        }
+        .btns {
+            margin-bottom: 0;
+            .ant-btn {
+                width: 100%;
+            }
+        }
+    }
+    .MemberGroupMenuForm {
+        min-height: pxTorem(200px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .ant-transfer {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: pxTorem(20px);
+            .ant-transfer-operation {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}

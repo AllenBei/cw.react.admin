@@ -1,0 +1,42 @@
+@import "@/assets/style/scss/common.scss";
+.Login {
+    height: 100%;
+    background-color: #190e3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .login-warp {
+        display: flex;
+        justify-content: center;
+    }
+    .login-box {
+        width: pxTorem(300px);
+        header {
+            font-size: pxTorem(30px);
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .box-body {
+            background-color: #fff;
+            border-radius: pxTorem(5px);
+            padding: pxTorem(10px);
+            padding-top:  pxTorem(30px);
+            .login-form{
+                input{
+                    width: 100% !important;
+                }
+            }
+            .btns {
+                .ant-form-item-children {
+                    display: flex;
+                    flex-direction: column;
+                    .row01 {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+}

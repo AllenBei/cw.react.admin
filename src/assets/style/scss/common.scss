@@ -1,0 +1,16 @@
+$default-font-size: 16px !default;
+html {
+    font-size: $default-font-size;
+}
+
+//动态计算px to rem
+@function pxTorem($px) {
+    @return $px / $default-font-size * 1rem;
+}
+
+//公共样式
+.edit{
+    button{
+        margin-right: pxTorem(10px)
+    }
+}

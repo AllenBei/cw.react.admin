@@ -1,0 +1,73 @@
+@import "@/assets/style/scss/common.scss";
+.UserConfig {}
+
+.UserModal {
+    .ant-modal-content {
+        height: 100%;
+        .ant-modal-body {
+            padding: 0;
+        }
+        .ant-modal-footer {
+            display: none;
+        }
+    }
+    .ant-form-item {
+        margin-bottom: pxTorem(10px);
+    }
+    .EditMemberGroupMenuForm {
+        min-height: pxTorem(200px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        .MemberGroupMenuForm {
+            display: flex;
+            justify-content: center;
+        }
+        .ant-transfer {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: pxTorem(20px);
+            .ant-transfer-operation {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        .btns {
+            margin-bottom: 0;
+            .ant-btn {
+                width: 100%;
+            }
+        }
+    }
+    .EditUserInfoForm {
+        min-height: pxTorem(200px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        .ant-form-item-children {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .MemberGroupMenuForm {
+            display: flex;
+            justify-content: center;
+        }
+        .ant-transfer {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: pxTorem(20px);
+            .ant-transfer-operation {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        .btns {
+            margin-bottom: 0;
+        }
+    }
+}

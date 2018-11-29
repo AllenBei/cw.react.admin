@@ -1,0 +1,69 @@
+@import "@/assets/style/scss/common.scss";
+
+.AdminContent{
+    overflow: auto;
+    background-color: #fff;
+}
+.AdminBreadcrumb{
+    padding: 10px;
+    background: #ddf1f7;
+}
+.ant-breadcrumb-link:hover{
+    color: #ddf1f7;
+    cursor: pointer
+}
+.ant-pagination {
+    text-align: center;
+    // padding-top: 20px!important;
+}
+.ant-btn-primary{
+    margin-right: 6px;
+}
+
+// .ant-pagination{
+//     float: inherit!important;
+// }
+.ant-input{
+    width: 160px!important;
+}
+.companyInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.companyInputMessage{
+    width: 350px;
+    padding: 0px 20px 0px 20px;
+}
+.ant-cascader-picker {
+    margin-left: 5px!important;
+}
+.ant-row{
+    display: inherit!important;
+}
+.ant-form-item-label{
+    width: 150px;
+    text-align: end
+}
+
+.ant-upload-list-item-name{
+    color: black!important;
+    width: 138px;
+}
+// .FormButton{
+//     position: fixed;
+//     bottom: 0px;
+//     width: 100%;
+//     right: 2px;
+//     text-align: end;
+//     background: #002936;
+//     margin-right: 0px;
+
+// }
+.cardEdit{
+    padding: 20px;
+}
+
+.companyEditor{
+    width: 1200px;
+}

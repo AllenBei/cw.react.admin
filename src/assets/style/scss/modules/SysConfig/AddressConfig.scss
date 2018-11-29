@@ -1,0 +1,28 @@
+@import "@/assets/style/scss/common.scss";
+.AddressConfig {
+    .mainContent {
+        display: flex;
+    }
+    .TypeAdressTable {
+        flex: 0.4;
+    }
+    .UrlAdressTable {
+        flex: 0.6;
+    }
+}
+
+.TypeAdressModal,.UrlAddressModal{
+    .ant-modal-body{
+        .SubMenuItemFrom,.SubMenuItemFrom{
+            .btns{
+                margin-bottom: 0;
+                .ant-btn{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .ant-modal-footer {
+        display: none;
+    }
+}

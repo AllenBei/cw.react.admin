@@ -1,0 +1,90 @@
+@import "@/assets/style/scss/common.scss";
+
+
+.AdminLayout {
+    height: 100%;
+    min-width: pxTorem(1024px);
+    .AdminNavLeft {
+        .logo {
+            height: pxTorem(32px);
+            background: rgba(255, 255, 255, 0.2);
+            margin: pxTorem(16px);
+            text-align: center;
+            line-height: pxTorem(32px);
+            color: #fff;
+            font-size: pxTorem(26px);
+        }
+    }
+    .AdminMain {
+        overflow: hidden;
+        .AdminHeader {
+            padding: 0 pxTorem(20px);
+            display: flex;
+            justify-content: space-between;
+            .trigger {
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .RightMenu {
+                display: flex;
+                .ant-dropdown-link {
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+        .AdminContent {
+            flex: 1;
+            .Modules {
+                height: 100%;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                .AdminBreadcrumb {
+                    height: pxTorem(40px);
+                    line-height: pxTorem(40px);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: #ddf1f7;
+                    box-shadow: 3px 3px 4px #c5c5c5;
+                    padding: 0 pxTorem(20px);
+                    .ant-breadcrumb-link {
+                        color: #000;
+                        cursor: pointer;
+                        &:hover {
+                            color: blue;
+                        }
+                    }
+                }
+                .mainContentWarp {
+                    flex: 1;
+                    //padding: pxTorem(10px) pxTorem(15px);
+                    background: #e0e0e0;
+                    .mainContent {
+                        background-color: #fff;
+                        box-shadow: 3px 3px 5px #9e9999;
+                        border-radius: 3px;
+                        height: 200%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//重置样式
+.ant-table {
+    .ant-table-title {
+        padding: pxTorem(10px);
+        border-bottom: 1px solid #dfdfdf;
+        top: 0;
+    }
+}
+
+.ant-table-pagination.ant-pagination {
+    margin:pxTorem(10px)!important;
+   
+}
